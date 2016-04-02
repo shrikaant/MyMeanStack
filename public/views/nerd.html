@@ -1,0 +1,10 @@
+<div class="jumbotron text-center">
+    <h1>Nerds and Proud</h1>
+    <p>{{ message }}</p>
+    <div>
+        <input ng-model="todoText" type="text" width="200" value="Enter your todo here." />
+        <input type="button" width="30" value="Fetch" ng-click="fetchToDo();" />
+        <input type="button" width="30" value="Save" ng-click="saveToDo();" />
+    </div>
+    {{customers}}
+</div>
