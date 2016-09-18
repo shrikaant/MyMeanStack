@@ -46,14 +46,14 @@ module.exports = function (app) {
         // create a todo, information comes from AJAX request from Angular
         console.log('Trying to save msg..');
         usrTodos.create({
-            name: 'suchi',
-            username: 'vandanatyagi1',
+            name: 'neo',
+            username: 'keanu reves',
             message: "hello",
             status: true,
             created_at: '10-28-2015',
             execute_at: '10-29-2015',
             mobile: '8848929420',
-            email: 'tyagi.vandana@gmai.com'
+            email: 'abcd@gmai.com'
         }, function (err, todos) {
             if (err)
                 res.send(err);
